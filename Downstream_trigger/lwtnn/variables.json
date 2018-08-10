@@ -1,0 +1,68 @@
+{
+  "input_sequences": [],
+  "inputs": [
+    {
+      "name": "input",
+      "variables": [
+        {
+          "name": "seed_chi2PerDoF",
+          "offset": -1.640568336346315,
+          "scale": 0.974822062787818
+        },
+        {
+          "name": "seed_p",
+          "offset": -9.003331795929764,
+          "scale": 1.015287730116970
+        },
+        {
+          "name": "seed_pt",
+          "offset": -7.096047517131157,
+          "scale": 2.175854786268049
+        },
+        {
+          "name": "seed_x",
+          "offset": 6.694118621597481,
+          "scale": 0.001424639371506
+        },
+        {
+          "name": "seed_y",
+          "offset": -2.294639912651397,
+          "scale": 0.001868877076397
+        },
+        {
+          "name": "seed_tx",
+          "offset": 0.006393834643134,
+          "scale": 0.001868877076397
+        },
+        {
+          "name": "seed_ty",
+          "offset": -0.000299331065380,
+          "scale": 14.498204168032636
+        },
+        {
+          "name": "seed_r",
+          "offset": -705.481654292050848,
+          "scale": 0.001885230669461
+        },
+        {
+          "name": "seed_angle",
+          "offset": -0.002342610191977,
+          "scale": 1.319436083442086
+        },
+        {
+          "name": "seed_pseudorapidity",
+          "offset": -0.218842020342180,
+          "scale": 5.735393657268749
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "labels": [
+        "out_0"
+      ],
+      "name": "dense_4_0"
+    }
+  ]
+}
