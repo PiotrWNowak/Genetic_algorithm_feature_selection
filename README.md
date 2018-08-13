@@ -35,16 +35,21 @@ Now using scikit-learn function PolynomialFeatures we large amound of features, 
   <img src="https://github.com/PiotrWNowak/LHCb_trigger_genetic_algorithm/raw/master/images/Figure_2-4.png">
 </p>
 
-## Using genetic algorithm for neural network for Downstream tracking trigger
+## Using genetic algorithm for neural network for LHCb track classifier
 
-In keras_model_feature_selection.py for feature selection is used genetic algorithm. Because of long time for computate every case for checking model performance we use only 5*10^5 events.
+Main reason to create genetic algorithm feature selection was to use it on Neural Network classifier for LHCb experiment. In keras_model_feature_selection.py is used genetic algorithm to select features. Because of long time to computate every case for checking model performance we use only 5*10^5 events.
 
 Results of running genetic alghoritm with best and mean performance every generation.
 <p align="center">
   <img src="https://github.com/PiotrWNowak/LHCb_trigger_genetic_algorithm/raw/master/images/Figure_5.png">
 </p>
 
-In folder Downstream_trigger there is analysys for selected features in keras neural network.
+Best feature selected model results was comparise with model trained without feature selection.
+<p align="center">
+  <img src="https://github.com/PiotrWNowak/LHCb_trigger_genetic_algorithm/raw/master/images/Figure_8.png">
+</p>
+
+In repository https://github.com/PiotrWNowak/LHCb_track_classifier there is analysys for selected features in keras neural network and later usage.
 
 ## Author
 
